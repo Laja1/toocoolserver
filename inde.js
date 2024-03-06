@@ -36,7 +36,7 @@ const brand = [
     slug: "WeBloodBrothers",
     brandName: "WeBloodBrothers",
     brandCover:
-      "https://scontent.cdninstagram.com/v/t51.29350-15/411922737_743285227662770_4144328263635409229_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE4MDAuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=102&_nc_ohc=vZr8uxiv6x0AX-0ENqY&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzI1OTYxNzkwMTQyODE4MjY5Mw%3D%3D.2-ccb7-5&oh=00_AfCpIPNUQF5XN3qqU0l0w-pFMqDotztNC4p_4pB-LWbpVg&oe=65EC3BB4&_nc_sid=10d13b",
+      "https://scontent.cdninstagram.com/v/t51.29350-15/398266337_1522490605175349_220684154524778919_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE3OTguc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=109&_nc_ohc=WioAWxIH5NwAX83bJ7f&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzIyNzc5NjQwMjEwMjg4MDk2Mw%3D%3D.2-ccb7-5&oh=00_AfBHq5C4bsm-mUcs2IC6a_DdXKdBY1x8Nlbdsd9sXgV1jA&oe=65ED0899&_nc_sid=10d13b",
     logo: "https://scontent.cdninstagram.com/v/t51.2885-19/275242425_648819119566048_5381673723199894110_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent.cdninstagram.com&_nc_cat=104&_nc_ohc=3Jd2_yg9eW4AX-EwjhT&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfAeLYtGHwfahui2zadyGiq9-uRP4Xm8ekjEuoGyyxAw5Q&oe=65EB08F8&_nc_sid=10d13b",
     brandMotto: "United We Stand",
     products: [
@@ -100,7 +100,7 @@ const brand = [
     slug: "Brk Academy",
     brandName: "Brk Academy",
     brandCover:
-      "https://scontent.cdninstagram.com/v/t51.29350-15/420662382_355928010721690_8536763653366393151_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi45MDB4MTEyNS5zZHIifQ&_nc_ht=scontent.cdninstagram.com&_nc_cat=110&_nc_ohc=6Lc6sD6vIdoAX_B-BMb&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzI4NjE2MzM2NTQ5MzQyOTg0Ng%3D%3D.2-ccb7-5&oh=00_AfArlLC7dq_Xa4RCT7kayL1MqW_ufjEbRfNacubolzG4mQ&oe=65EA946E&_nc_sid=10d13b",
+      "https://scontent.cdninstagram.com/v/t51.29350-15/394273788_351950023944237_5415049532697276714_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDA2eDE3NTcuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=109&_nc_ohc=8L5PzNroeooAX-cH2_v&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzIxOTMyNjg1MjQzMjY2MTUwOQ%3D%3D.2-ccb7-5&oh=00_AfCMiz-wMHk1MAPI8MWIRygQ4QGgHUMai82kR5g2-NC1Pw&oe=65EB60F3&_nc_sid=10d13b",
     logo: "https://scontent-los2-1.cdninstagram.com/v/t51.2885-19/194983658_853983801929896_3448874707843458180_n.jpg?stp=dst-jpg_s320x320&_nc_ht=scontent-los2-1.cdninstagram.com&_nc_cat=104&_nc_ohc=6O8azxWLdd0AX_bQgG3&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfCC7tdndzeWe81sMP5GFXrPwxZoI05tKynUTk7v2YiH5g&oe=65EBC0F1&_nc_sid=8b3546",
     brandMotto: "Spread Love And Positivity",
     products: [
@@ -169,7 +169,7 @@ const brand = [
     slug: "Clapped Boys",
     brandName: "Clapped Boys",
     brandCover:
-      "https://scontent.cdninstagram.com/v/t51.2885-15/64238497_2316472085234261_2923938020012494002_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi44NjR4MTA4MC5zZHIifQ&_nc_ht=scontent.cdninstagram.com&_nc_cat=105&_nc_ohc=iB76eSiMag0AX_Y2yL6&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MjA2NTU5NjM2NjAzNzY0NzI1MQ%3D%3D.2-ccb7-5&oh=00_AfB2TioPZ315RuFztUt9j53RI_vmXa6j14oQESwgmaeOTQ&oe=65EB4417&_nc_sid=10d13b",
+      "https://scontent.cdninstagram.com/v/t51.29350-15/411071176_1066048508041854_5909614886409337209_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE3OTguc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=106&_nc_ohc=vZM1QuYAJdQAX9GorL5&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzI1ODUwMDEyMzc0MDc2NTk4OQ%3D%3D.2-ccb7-5&oh=00_AfCJyZ1RIrjCvwzSQkWU8qjChR3HFc0vkVRBDiNevrfrAA&oe=65EDC605&_nc_sid=10d13b",
     logo: "https://scontent-los2-1.cdninstagram.com/v/t51.2885-19/317428311_684871003074700_4410710922221987957_n.jpg?stp=dst-jpg_s320x320&_nc_ht=scontent-los2-1.cdninstagram.com&_nc_cat=104&_nc_ohc=TDEi3mwvBaIAX9VROia&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfCvXqz-1bqgHXqqhcM9m6b8fooMRr5vu_udWpzHcwEtTA&oe=65EC964B&_nc_sid=8b3546",
     brandMotto: "GO CLAPPED OR GO HOME!",
     products: [
