@@ -343,7 +343,6 @@ const brand = [
           "https://scontent.cdninstagram.com/v/t51.29350-15/397022883_3263820827249289_409417679715336751_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE0NDAuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=109&_nc_ohc=N3Ea7q-QgKUAX-ztyRt&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzIyMzYzNTI3NDQyNjk5MjA1OA%3D%3D.2-ccb7-5&oh=00_AfBJeb6eiDge9xQ24_fSqvnyuo7xqHCZdYe7gwQUhWsMFQ&oe=65EE4BA7&_nc_sid=10d13b",
           "https://scontent.cdninstagram.com/v/t51.29350-15/395762275_669723261933103_5362182929555613962_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE0NDAuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=107&_nc_ohc=x9OH2sZgCvkAX9xpz9h&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzIyMzYzNTI3NDQzNTE2NjI5MQ%3D%3D.2-ccb7-5&oh=00_AfDEQbzu2xWvx5PSA4FatLP7IL50jfY3Fmhs8GR699aRIg&oe=65ECC5A8&_nc_sid=10d13b",
           "https://scontent.cdninstagram.com/v/t51.29350-15/426743922_1771738203295376_1674661195551706197_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE3OTkuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=108&_nc_ohc=H7xtO1E1mrQAX-v9vm8&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzMwMDUxMDc4OTYxOTkzMTU0OA%3D%3D.2-ccb7-5&oh=00_AfAXAaFRDJd32iwx4vtJq0rM8vRzTcsXGFouxGa9boWRRQ&oe=65EE5C09&_nc_sid=10d13b",
-          "",
         ],
         brandProductPrice: 55000,
       },
@@ -391,6 +390,7 @@ const brand = [
       },
 
       {
+        id: 3,
         brandProductName: "WESTNORTH CIGAR TEE",
         brandProductimage:
           "https://scontent.cdninstagram.com/v/t51.29350-15/346105085_838472287705879_7432816675606820730_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE4MTguc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=107&_nc_ohc=hDf_q_HtF3EAX8tS4A2&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzEwMTE4MjQwOTA3Njg1MjIwOA%3D%3D.2-ccb7-5&oh=00_AfAHwPSAbyaPq_zzMAiZd-TAZ43OAn1AFxGtRrqDFpyNqA&oe=65ECA875&_nc_sid=10d13b",
