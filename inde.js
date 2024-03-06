@@ -15,6 +15,7 @@ brandMotto: String
   }
 
   type Product {
+    id:ID!
     brandProductName: String!
     brandProductimage: String!
     images: [String]
@@ -41,6 +42,7 @@ const brand = [
     brandMotto: "United We Stand",
     products: [
       {
+        id: 1,
         brandProductName: "Seek First Thy Kingdom",
         brandProductimage:
           "https://scontent.cdninstagram.com/v/t51.29350-15/421952612_917608806685732_6204640045184986581_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE4MDAuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=104&_nc_ohc=yS8xhv-qz4IAX8xcr4S&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzI4ODY1NzEzMjMxNDAzNTY2MA%3D%3D.2-ccb7-5&oh=00_AfDcPgNzJJTTbTil_6D3zXEVb2GqMjQoYnnSjAOURuDqzA&oe=65EC4643&_nc_sid=10d13b",
@@ -53,6 +55,7 @@ const brand = [
         ],
       },
       {
+        id: 2,
         brandProductName: "Hockey Jersey",
         brandProductimage:
           "https://scontent.cdninstagram.com/v/t51.29350-15/405770877_7098168463562450_7112941450232575436_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE3OTguc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=102&_nc_ohc=dqtS8V2DbOAAX96an-Z&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzI1MDM5NTIxMjg1OTgxMDcyMw%3D%3D.2-ccb7-5&oh=00_AfDxtiT4eXgYRDZJn4VmCENZFpIhbmnpYgbv1eeSfwYnCQ&oe=65EC6064&_nc_sid=10d13b",
@@ -65,6 +68,7 @@ const brand = [
         brandProductPrice: 10000,
       },
       {
+        id: 3,
         brandProductName: "Batman Tee",
         brandProductimage:
           "https://scontent.cdninstagram.com/v/t51.29350-15/429981125_772482514941927_8281498572439568011_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE4MDAuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=103&_nc_ohc=VScAB5gVZToAX-un57R&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzMxMTQ0NTYxNTI4NTY4MTgwNw%3D%3D.2-ccb7-5&oh=00_AfDx4lVP0F9KdWgwfftCsZ6fRqms_N7D4NqUtbCsg3x36Q&oe=65EB4B35&_nc_sid=10d13b",
@@ -77,6 +81,7 @@ const brand = [
         brandProductPrice: 10000,
       },
       {
+        id: 4,
         brandProductName: "Join The Clan",
         brandProductimage:
           "https://scontent.cdninstagram.com/v/t51.29350-15/193669402_3969986693048962_7777146569669072011_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE0Mzkuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=110&_nc_ohc=bQL5oBkm8K0AX-GERGg&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MjU4NDQ3MTE5NDI1MzA3NTIyNA%3D%3D.2-ccb7-5&oh=00_AfAIs4NMpLqj8nx16blpBZvTgWv3b3nvN-1YGCOUBE4Ifg&oe=65ECC434&_nc_sid=10d13b",
@@ -105,6 +110,7 @@ const brand = [
     brandMotto: "Spread Love And Positivity",
     products: [
       {
+        id: 1,
         brandProductName: "Brk Retro Jersey",
         brandProductimage:
           "https://scontent.cdninstagram.com/v/t51.29350-15/417186438_687052410286513_1275783866342726849_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE3OTguc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=101&_nc_ohc=vTb4uEFDvcMAX9wibOV&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzI3NTI5NzQzMDg4NDc3Mjg0NA%3D%3D.2-ccb7-5&oh=00_AfCwMOiceo5Fb6SW-hV6Gatf_OIennN4jlXJMt6ARN3jzg&oe=65EB86D9&_nc_sid=10d13b",
@@ -119,6 +125,7 @@ const brand = [
       },
 
       {
+        id: 2,
         brandProductName: "Osadebe Catholic Jersey",
         brandProductimage:
           "https://scontent.cdninstagram.com/v/t51.29350-15/418047157_2624165401092175_4011145983563249332_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE3OTguc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=107&_nc_ohc=wNr15AxRtoAAX9jKnPo&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzI3NTgzODIyNzA4NjQxMzU3NQ%3D%3D.2-ccb7-5&oh=00_AfBvEzrcmAgObB7HG7jhtB5Gm85jn4coK6kCdTHbd-sM3Q&oe=65EC2CFE&_nc_sid=10d13b",
@@ -131,6 +138,7 @@ const brand = [
         brandProductPrice: 55000,
       },
       {
+        id: 3,
         brandProductName: "Brk x Revamp Mesh Shorts",
         brandProductimage:
           "https://scontent.cdninstagram.com/v/t51.29350-15/417900923_1853048758457732_5320940674269641615_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE3OTguc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=108&_nc_ohc=lpewR9le3_wAX9ggTCv&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzI3NTgzNzY3MzkzMzExMTgyMA%3D%3D.2-ccb7-5&oh=00_AfChJmsc9M6glfuQcWdZmkwh8O9EuvKTFsHy-2hFDoQ0hQ&oe=65ECE0BC&_nc_sid=10d13b",
@@ -146,6 +154,7 @@ const brand = [
         brandProductPrice: 30000,
       },
       {
+        id: 4,
         brandProductName: "BRK/WESTNORTH GASOLINE TEE",
         brandProductimage:
           "https://scontent.cdninstagram.com/v/t51.29350-15/416489490_341405625347031_7236190749780014573_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE3OTguc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=103&_nc_ohc=vkqm0SrKTWsAX__wvhn&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzI3MzgzMzkyNjA5NzA4NDUzNQ%3D%3D.2-ccb7-5&oh=00_AfDguu4j6LysVEBFpYo7FXJNYpRQM26trI12clV06YS-0w&oe=65EC672C&_nc_sid=10d13b",
@@ -174,6 +183,7 @@ const brand = [
     brandMotto: "GO CLAPPED OR GO HOME!",
     products: [
       {
+        id: 1,
         brandProductName: "Join The Mob",
         brandProductimage:
           "https://scontent.cdninstagram.com/v/t51.29350-15/400519269_2602668563240530_8584301494442865519_n.jpg?stp=dst-jpg_e35_p720x720&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE4MDAuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=110&_nc_ohc=BZs_jk0m0NEAX9hHa-H&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzIzMzg1NzM0ODM5MTA5MTkxNw%3D%3D.2-ccb7-5&oh=00_AfAFgIIJRkKvVeFvK4leYXLXVSK4L_UXYvcyBDdlKCxvJg&oe=65ECF5FE&_nc_sid=10d13b",
@@ -187,6 +197,7 @@ const brand = [
       },
 
       {
+        id: 2,
         brandProductName: "Go Clapped Tee",
         brandProductimage:
           "https://scontent.cdninstagram.com/v/t51.29350-15/318008242_146949941432785_6588595156995190736_n.jpg?stp=dst-jpg_e35_p720x720&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE3OTIuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=101&_nc_ohc=mDOTUtcTspkAX8HbGz5&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=Mjk4NTMzNDg2MzQ4NDA4Mjk0Mg%3D%3D.2-ccb7-5&oh=00_AfCBQ3Q0RXauBt83V7Gv_OMQIie6f2AMt4gwv9F_q1jueQ&oe=65EC8C53&_nc_sid=10d13b",
@@ -202,6 +213,7 @@ const brand = [
         brandProductPrice: 55000,
       },
       {
+        id: 3,
         brandProductName: "Clapped Shit",
         brandProductimage:
           "https://scontent.cdninstagram.com/v/t51.29350-15/274950048_1550553548657939_1695427210340414493_n.jpg?stp=dst-jpg_e35_p720x720&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE3NTkuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=111&_nc_ohc=GDKtuxWaFjcAX-6hnMw&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=Mjc4MzgyNDQzOTk0NzU3NDE4Mw%3D%3D.2-ccb7-5&oh=00_AfDFFC3eElbtZX280nai1BgJrYkE5c3yBCsbYL5QiNHCnA&oe=65EA9641&_nc_sid=10d13b",
@@ -226,9 +238,10 @@ const brand = [
     brandCover:
       "https://scontent.cdninstagram.com/v/t51.29350-15/243787121_251644836888697_3530998005911301128_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE4MDAuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=101&_nc_ohc=zwAQESvnU9IAX8pyjb4&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MjY3NDI1NzU0MTAzODU4NDU5Nw%3D%3D.2-ccb7-5&oh=00_AfCX040EAQEetzDatoOYCFXaQXhoRu1vOYpyWRXjAKmYUg&oe=65EE15CB&_nc_sid=10d13b",
     logo: "https://scontent-los2-1.cdninstagram.com/v/t51.2885-19/285897188_969164697084076_6708409492982733118_n.jpg?stp=dst-jpg_s320x320&_nc_ht=scontent-los2-1.cdninstagram.com&_nc_cat=104&_nc_ohc=Wk-QBQgxP60AX-LgZNx&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfBHp_5ScJA6VdAZueaT8QyIbMH76Ctq4hoZRdUXBiDklg&oe=65EC4E13&_nc_sid=8b3546",
-    brandMotto: "GO CLAPPED OR GO HOME!",
+    brandMotto: "Nature",
     products: [
       {
+        id: 1,
         brandProductName: "Severe Nature’s Boxers",
         brandProductimage:
           "https://scontent.cdninstagram.com/v/t39.30808-6/414082706_18294669346145884_5626229249873728893_n.jpg?stp=dst-jpg_e15&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE4MDAuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=104&_nc_ohc=Vd1KFv-5A50AX-hNQF_&edm=APs17CUAAAAA&ccb=7-5&ig_cache_key=MzI2ODYzMjYwMTM5ODgwMTQyNg%3D%3D.2-ccb7-5&oh=00_AfCQfG3y__Okzqz_QAS_mS8jY7RIfkz9DB9QVeFpq9cp4w&oe=65ED8B5D&_nc_sid=10d13b",
@@ -243,6 +256,7 @@ const brand = [
       },
 
       {
+        id: 2,
         brandProductName: "Severe Nature ‘Bushman’",
         brandProductimage:
           "https://scontent.cdninstagram.com/v/t39.30808-6/377551668_18279121534145884_8267564354243374341_n.jpg?stp=dst-jpg_e15&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE4MDAuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=104&_nc_ohc=CH8filWSdQoAX9w55_y&edm=APs17CUAAAAA&ccb=7-5&ig_cache_key=MzE4NzUwNDgyNTEyODUyMTA0OA%3D%3D.2-ccb7-5&oh=00_AfDzKYvtexe6QMUPFTd_TmNk47rHbXY9d8_WVWlie4DaQA&oe=65ECE101&_nc_sid=10d13b",
@@ -256,6 +270,7 @@ const brand = [
         brandProductPrice: 55000,
       },
       {
+        id: 3,
         brandProductName: "Forevernature",
         brandProductimage:
           "https://scontent-lhr6-2.cdninstagram.com/v/t39.30808-6/362015761_18271942096145884_6873699941854340555_n.jpg?stp=dst-jpg_e15&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE4MDAuc2RyIn0&_nc_ht=scontent-lhr6-2.cdninstagram.com&_nc_cat=104&_nc_ohc=L00W7wU-hR8AX9xEKWr&edm=APs17CUAAAAA&ccb=7-5&ig_cache_key=MzE1MTIwMjQxOTQ4MzAxNzA2Nw%3D%3D.2-ccb7-5&oh=00_AfAkchUmAehV2NDPDt-cGl_XQAF6w0r3Hnmz0FtTCFIUGw&oe=65EC64B3&_nc_sid=10d13b",
@@ -279,6 +294,7 @@ const brand = [
     brandMotto: "turndasix!",
     products: [
       {
+        id: 1,
         brandProductName: "FUCK NINE TEE",
         brandProductimage:
           "https://scontent.cdninstagram.com/v/t51.29350-15/324893822_1131365447560460_8939515620044635345_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE3OTkuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=108&_nc_ohc=gFhRcmqIP2wAX_xhn1-&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzAxNTAzNTIwNDg2MTMyNTA5Mw%3D%3D.2-ccb7-5&oh=00_AfA0HcXpnVSDPiM8Qjij35DuaLjlUwcIvKDDrN4aw0Hi5w&oe=65EDBA8A&_nc_sid=10d13b",
@@ -293,6 +309,7 @@ const brand = [
         brandProductPrice: 25000,
       },
       {
+        id: 2,
         brandProductName: "NINE TEE",
         brandProductimage:
           "https://scontent.cdninstagram.com/v/t51.29350-15/338783556_238304585318883_979728337319497177_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE4MDAuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=103&_nc_ohc=zSOrCzQJtoMAX8PprJQ&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzA3MDg0NDUzNzU1ODY3NTgwOQ%3D%3D.2-ccb7-5&oh=00_AfCnKEysRWByUh0bu3BkocyXCpdMwhUZMCh-KVgIJY_z_w&oe=65EE177A&_nc_sid=10d13b",
@@ -306,6 +323,7 @@ const brand = [
       },
 
       {
+        id: 3,
         brandProductName: "T U R N D A S I X JERSEY",
         brandProductimage:
           "https://scontent.cdninstagram.com/v/t51.29350-15/362552297_605370751703863_4675485624364345211_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE4MDAuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=107&_nc_ohc=PEhUBDtfWxAAX_TEB7x&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzE1MjAxNzQ1NjgxMjI4NjAxOQ%3D%3D.2-ccb7-5&oh=00_AfBW-O8pxbNmB6VxkKuXeHRywPGNuNmj5jPF9lk3vxadRg&oe=65EC72AE&_nc_sid=10d13b",
@@ -317,6 +335,7 @@ const brand = [
         brandProductPrice: 55000,
       },
       {
+        id: 4,
         brandProductName: "T U R N D A S I X RED JERSEY",
         brandProductimage:
           "https://scontent.cdninstagram.com/v/t51.29350-15/397022883_3263820827249289_409417679715336751_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE0NDAuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=109&_nc_ohc=N3Ea7q-QgKUAX-ztyRt&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzIyMzYzNTI3NDQyNjk5MjA1OA%3D%3D.2-ccb7-5&oh=00_AfBJeb6eiDge9xQ24_fSqvnyuo7xqHCZdYe7gwQUhWsMFQ&oe=65EE4BA7&_nc_sid=10d13b",
@@ -341,6 +360,7 @@ const brand = [
     brandMotto: "DARETOBEDIFFERENT!",
     products: [
       {
+        id: 1,
         brandProductName: "BRK/WESTNORTH GASOLINE TEE",
         brandProductimage:
           "https://scontent.cdninstagram.com/v/t51.29350-15/416489490_341405625347031_7236190749780014573_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE3OTguc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=103&_nc_ohc=vkqm0SrKTWsAX__wvhn&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzI3MzgzMzkyNjA5NzA4NDUzNQ%3D%3D.2-ccb7-5&oh=00_AfDguu4j6LysVEBFpYo7FXJNYpRQM26trI12clV06YS-0w&oe=65EC672C&_nc_sid=10d13b",
@@ -357,6 +377,7 @@ const brand = [
         brandProductPrice: 25000,
       },
       {
+        id: 2,
         brandProductName: "WESTNORTH TEE",
         brandProductimage:
           "https://scontent.cdninstagram.com/v/t51.29350-15/403901468_317243244531299_6376767711093943092_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE4MDAuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=111&_nc_ohc=yh0RtXMCmJ8AX-52G7t&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzI0MzMxMzkwODEwNDE3Mjk4MA%3D%3D.2-ccb7-5&oh=00_AfCOM13Em0H8-lqjND8CbJw1Rgxp8X7JKwvcL0olv-IvfQ&oe=65ED00E5&_nc_sid=10d13b",
@@ -392,6 +413,7 @@ const brand = [
     brandMotto: "THIS LIFE I LIVE IS FOREVER",
     products: [
       {
+        id: 1,
         brandProductName: "ROCKSTA JERSEY",
         brandProductimage:
           "https://scontent.cdninstagram.com/v/t51.29350-15/401477478_327090696724276_8390877029931727619_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE4MDAuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=104&_nc_ohc=_0L28bRpDvYAX9xxesf&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzIzNDUzNjAyNjIzMDc3MTQ3NA%3D%3D.2-ccb7-5&oh=00_AfDBiWR9EFc7o5MzwK3m9QNNgOT6CwxpzqlBkd4Q-z6U6w&oe=65ED999B&_nc_sid=10d13b",
@@ -407,6 +429,7 @@ const brand = [
         brandProductPrice: 25000,
       },
       {
+        id: 2,
         brandProductName: "BOLLYWOOD POLO",
         brandProductimage:
           "https://scontent.cdninstagram.com/v/t51.29350-15/404902312_2610342192467010_2659254787846887495_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE4MDAuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=106&_nc_ohc=_y2TTZNc_L8AX8zNurS&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzI0NTU3MjE1MzI0NzA3MTM4Mw%3D%3D.2-ccb7-5&oh=00_AfBgRpUUD8ru9dYlGA4WfiU_OCZZPRQgx8zPw9GZ3s76bA&oe=65EDEC3F&_nc_sid=10d13b",
@@ -420,6 +443,7 @@ const brand = [
       },
 
       {
+        id: 3,
         brandProductName: "BOLLYWOOD FLAG",
         brandProductimage:
           "https://bolapsd.com/cdn/shop/files/rsz_bollywood-flag.jpg?v=1704884000&width=1426",
