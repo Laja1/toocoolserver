@@ -43,7 +43,7 @@ const brand = [
     products: [
       {
         id: 1,
-        brandProductName: "Seek First Thy Kingdom",
+        brandProductName: "Seek First Thy Kingdom Tee",
         brandProductimage:
           "https://scontent.cdninstagram.com/v/t51.29350-15/421952612_917608806685732_6204640045184986581_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE4MDAuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=104&_nc_ohc=yS8xhv-qz4IAX8xcr4S&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzI4ODY1NzEzMjMxNDAzNTY2MA%3D%3D.2-ccb7-5&oh=00_AfDcPgNzJJTTbTil_6D3zXEVb2GqMjQoYnnSjAOURuDqzA&oe=65EC4643&_nc_sid=10d13b",
         brandProductPrice: 10000,
@@ -82,7 +82,7 @@ const brand = [
       },
       {
         id: 4,
-        brandProductName: "Join The Clan",
+        brandProductName: "Join The Clan Tee",
         brandProductimage:
           "https://scontent.cdninstagram.com/v/t51.29350-15/193669402_3969986693048962_7777146569669072011_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE0Mzkuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=110&_nc_ohc=bQL5oBkm8K0AX-GERGg&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MjU4NDQ3MTE5NDI1MzA3NTIyNA%3D%3D.2-ccb7-5&oh=00_AfAIs4NMpLqj8nx16blpBZvTgWv3b3nvN-1YGCOUBE4Ifg&oe=65ECC434&_nc_sid=10d13b",
 
@@ -336,7 +336,7 @@ const brand = [
       },
       {
         id: 4,
-        brandProductName: "T U R N D A S I X RED JERSEY",
+        brandProductName: "TURNDASIX RED JERSEY",
         brandProductimage:
           "https://scontent.cdninstagram.com/v/t51.29350-15/397022883_3263820827249289_409417679715336751_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE0NDAuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=109&_nc_ohc=N3Ea7q-QgKUAX-ztyRt&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzIyMzYzNTI3NDQyNjk5MjA1OA%3D%3D.2-ccb7-5&oh=00_AfBJeb6eiDge9xQ24_fSqvnyuo7xqHCZdYe7gwQUhWsMFQ&oe=65EE4BA7&_nc_sid=10d13b",
         images: [
@@ -360,7 +360,7 @@ const brand = [
     products: [
       {
         id: 1,
-        brandProductName: "BRK/WESTNORTH GASOLINE TEE",
+        brandProductName: "BRK/WESTNORTH TEE",
         brandProductimage:
           "https://scontent.cdninstagram.com/v/t51.29350-15/416489490_341405625347031_7236190749780014573_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE3OTguc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=103&_nc_ohc=vkqm0SrKTWsAX__wvhn&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzI3MzgzMzkyNjA5NzA4NDUzNQ%3D%3D.2-ccb7-5&oh=00_AfDguu4j6LysVEBFpYo7FXJNYpRQM26trI12clV06YS-0w&oe=65EC672C&_nc_sid=10d13b",
 
