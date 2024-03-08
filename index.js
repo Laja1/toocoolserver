@@ -155,7 +155,7 @@ const brand = [
       },
       {
         id: 4,
-        brandProductName: "BRK/WESTNORTH GASOLINE TEE",
+        brandProductName: "BRK/WESTNORTH TEE",
         brandProductimage:
           "https://scontent.cdninstagram.com/v/t51.29350-15/416489490_341405625347031_7236190749780014573_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE3OTguc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=103&_nc_ohc=vkqm0SrKTWsAX__wvhn&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzI3MzgzMzkyNjA5NzA4NDUzNQ%3D%3D.2-ccb7-5&oh=00_AfDguu4j6LysVEBFpYo7FXJNYpRQM26trI12clV06YS-0w&oe=65EC672C&_nc_sid=10d13b",
 
@@ -184,7 +184,7 @@ const brand = [
     products: [
       {
         id: 1,
-        brandProductName: "Join The Mob",
+        brandProductName: "Join The Mob TEE",
         brandProductimage:
           "https://scontent.cdninstagram.com/v/t51.29350-15/400519269_2602668563240530_8584301494442865519_n.jpg?stp=dst-jpg_e35_p720x720&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE4MDAuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=110&_nc_ohc=BZs_jk0m0NEAX9hHa-H&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzIzMzg1NzM0ODM5MTA5MTkxNw%3D%3D.2-ccb7-5&oh=00_AfAFgIIJRkKvVeFvK4leYXLXVSK4L_UXYvcyBDdlKCxvJg&oe=65ECF5FE&_nc_sid=10d13b",
         brandProductPrice: 40000,
@@ -214,7 +214,7 @@ const brand = [
       },
       {
         id: 3,
-        brandProductName: "Clapped Shit",
+        brandProductName: "Clapped Shit Tee",
         brandProductimage:
           "https://scontent.cdninstagram.com/v/t51.29350-15/274950048_1550553548657939_1695427210340414493_n.jpg?stp=dst-jpg_e35_p720x720&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE3NTkuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=111&_nc_ohc=GDKtuxWaFjcAX-6hnMw&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=Mjc4MzgyNDQzOTk0NzU3NDE4Mw%3D%3D.2-ccb7-5&oh=00_AfDFFC3eElbtZX280nai1BgJrYkE5c3yBCsbYL5QiNHCnA&oe=65EA9641&_nc_sid=10d13b",
         images: [
@@ -257,7 +257,7 @@ const brand = [
 
       {
         id: 2,
-        brandProductName: "Severe Nature ‘Bushman’",
+        brandProductName: "‘Bushman’ Tee",
         brandProductimage:
           "https://scontent.cdninstagram.com/v/t39.30808-6/377551668_18279121534145884_8267564354243374341_n.jpg?stp=dst-jpg_e15&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE4MDAuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=104&_nc_ohc=CH8filWSdQoAX9w55_y&edm=APs17CUAAAAA&ccb=7-5&ig_cache_key=MzE4NzUwNDgyNTEyODUyMTA0OA%3D%3D.2-ccb7-5&oh=00_AfDzKYvtexe6QMUPFTd_TmNk47rHbXY9d8_WVWlie4DaQA&oe=65ECE101&_nc_sid=10d13b",
         images: [
@@ -271,7 +271,7 @@ const brand = [
       },
       {
         id: 3,
-        brandProductName: "Forevernature",
+        brandProductName: "Forevernature Tee",
         brandProductimage:
           "https://scontent-lhr6-2.cdninstagram.com/v/t39.30808-6/362015761_18271942096145884_6873699941854340555_n.jpg?stp=dst-jpg_e15&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE4MDAuc2RyIn0&_nc_ht=scontent-lhr6-2.cdninstagram.com&_nc_cat=104&_nc_ohc=L00W7wU-hR8AX9xEKWr&edm=APs17CUAAAAA&ccb=7-5&ig_cache_key=MzE1MTIwMjQxOTQ4MzAxNzA2Nw%3D%3D.2-ccb7-5&oh=00_AfAkchUmAehV2NDPDt-cGl_XQAF6w0r3Hnmz0FtTCFIUGw&oe=65EC64B3&_nc_sid=10d13b",
         images: [
