@@ -425,16 +425,16 @@ const brand = [
         ],
       },
 
-      {
-        id: 3,
-        brandProductName: "BOLLYWOOD FLAG",
-        brandProductimage:
-          "https://bolapsd.com/cdn/shop/files/rsz_bollywood-flag.jpg?v=1704884000&width=1426",
-        images: [
-          "https://bolapsd.com/cdn/shop/files/rsz_bollywood-flag.jpg?v=1704884000&width=1426",
-        ],
-        brandProductPrice: 55000,
-      },
+      // {
+      //   id: 3,
+      //   brandProductName: "BOLLYWOOD FLAG",
+      //   brandProductimage:
+      //     "https://bolapsd.com/cdn/shop/files/rsz_bollywood-flag.jpg?v=1704884000&width=1426",
+      //   images: [
+      //     "https://bolapsd.com/cdn/shop/files/rsz_bollywood-flag.jpg?v=1704884000&width=1426",
+      //   ],
+      //   brandProductPrice: 55000,
+      // },
     ],
   },
 ];
