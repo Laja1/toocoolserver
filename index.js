@@ -408,7 +408,6 @@ const brand = [
           "https://scontent.cdninstagram.com/v/t51.29350-15/418614235_322189930793314_2780300446646418115_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE4MDAuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=110&_nc_ohc=SR_izNYHlfQAX8k2T9A&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzI3ODg3NTU0ODk2MzQ1Mjg5Nw%3D%3D.2-ccb7-5&oh=00_AfBOJyq9q_c_ZI0zkWoN4B6Ij74Ww5CuL6qSHftTZVm_pQ&oe=65F2E8B0&_nc_sid=10d13b",
           "https://scontent.cdninstagram.com/v/t51.29350-15/418748966_730838078711599_4114830826000404606_n.jpg?stp=dst-jpg_e35_p720x720&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE3OTkuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=107&_nc_ohc=n4ZpOtnQZN8AX8V_jVU&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzI3ODg3NTU0ODk0Njc2NDc0OQ%3D%3D.2-ccb7-5&oh=00_AfCo0XBk5SAtGveuO3wEsBNUK1gUKlp_6bbBm7CRl-J47g&oe=65F39FB0&_nc_sid=10d13b",
           "https://scontent.cdninstagram.com/v/t51.29350-15/418417948_680214327649359_2385093807266536876_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE4MDAuc2RyIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=103&_nc_ohc=Y8G05mz_uc8AX_NSp0Q&edm=APs17CUBAAAA&ccb=7-5&ig_cache_key=MzI3ODg3NTU0ODk2MzUyNjM1Mw%3D%3D.2-ccb7-5&oh=00_AfB8eh1-ulx7qnXdM5X8m5GoEY2L3xOSAl95wcdXXeXRkQ&oe=65F4251D&_nc_sid=10d13b",
-          "",
         ],
         brandProductPrice: 25000,
       },
